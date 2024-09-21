@@ -1,0 +1,28 @@
+// File: src/main/java/com/sahu/beans/DotNetCourseMaterial.java
+package com.sahu.beans;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * Course material for .NET courses, implementing ICourseMaterial interface.
+ */
+@Component("dotNet") // Registers this class as a Spring bean with the name "dotNet"
+public final class DotNetCourseMaterial implements ICourseMaterial {
+
+    // Constructor that logs when an instance is created
+    public DotNetCourseMaterial() {
+        System.out.println("DotNetCourseMaterial instantiated");
+    }
+
+    // Returns the content specific to the .NET course
+    @Override
+    public String courseContent() {
+        return "1. C# OOPS\n2. C# Exception Handling\n3. C# Collection";
+    }
+
+    // Returns the price of the .NET course
+    @Override
+    public double price() {
+        return 300.0;
+    }
+}

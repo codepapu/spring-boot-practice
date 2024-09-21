@@ -1,0 +1,35 @@
+package com.sahu;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import com.sahu.beans.Student;
+import lombok.extern.slf4j.Slf4j;
+
+/**
+ * Entry point for the Spring Boot Dependency Injection Application.
+ */
+@RestController
+@SpringBootApplication
+@Slf4j // Lombok annotation for logging
+public class BootProj02DependencyInjectionApplication {
+
+    public static void main(String[] args) {
+        // Get IoC container
+        ApplicationContext context = SpringApplication.run(BootProj02DependencyInjectionApplication.class, args);
+        log.info("Spring Boot application started and IoC container initialized.");
+
+        // Get target Spring bean
+        Student student = context.getBean("stu", Student.class);
+        log.info("Retrieved Student bean from the IoC container.");
+
+        // Invoke business method
+        student.preparation("CTS-interview");
+        log.info("Preparation completed for the exam: CTS-interview");
+
+        // Close container
+        ((ConfigurableApplicationContext) context).close();
+        log.info("Spring Boot application context closed.");
+    }
+}

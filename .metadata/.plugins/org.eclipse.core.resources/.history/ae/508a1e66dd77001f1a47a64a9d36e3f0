@@ -1,0 +1,23 @@
+// File: src/main/java/com/sahu/beans/ICourseMaterial.java
+package com.sahu.beans;
+
+/**
+ * This interface defines the blueprint for course material.
+ * Every course material class must implement this interface.
+ */
+public interface ICourseMaterial {
+    
+    /**
+     * Provides the content of the course.
+     * 
+     * @return A string representing the topics covered in the course.
+     */
+    String courseContent();
+    
+    /**
+     * Provides the price of the course.
+     * 
+     * @return A double value representing the cost of the course.
+     */
+    double price();
+}

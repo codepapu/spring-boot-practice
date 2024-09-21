@@ -1,0 +1,28 @@
+// File: src/main/java/com/sahu/beans/JavaCourseMaterial.java
+package com.sahu.beans;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * Course material for Java courses, implementing ICourseMaterial interface.
+ */
+@Component("java") // Registers this class as a Spring bean with the name "java"
+public final class JavaCourseMaterial implements ICourseMaterial {
+
+    // Constructor that logs when an instance is created
+    public JavaCourseMaterial() {
+        System.out.println("JavaCourseMaterial instantiated");
+    }
+
+    // Returns the content specific to the Java course
+    @Override
+    public String courseContent() {
+        return "1. OOPS\n2. Exception Handling\n3. Collection";
+    }
+
+    // Returns the price of the Java course
+    @Override
+    public double price() {
+        return 400.0;
+    }
+}

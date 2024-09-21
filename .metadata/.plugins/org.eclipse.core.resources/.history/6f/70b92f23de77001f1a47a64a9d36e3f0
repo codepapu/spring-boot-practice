@@ -1,0 +1,28 @@
+// File: src/main/java/com/sahu/beans/UICourseMaterial.java
+package com.sahu.beans;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * Course material for UI courses, implementing ICourseMaterial interface.
+ */
+@Component("ui") // Registers this class as a Spring bean with the name "ui"
+public final class UICourseMaterial implements ICourseMaterial {
+
+    // Constructor that logs when an instance is created
+    public UICourseMaterial() {
+        System.out.println("UICourseMaterial instantiated");
+    }
+
+    // Returns the content specific to the UI course
+    @Override
+    public String courseContent() {
+        return "1. HTML\n2. CSS\n3. JavaScript";
+    }
+
+    // Returns the price of the UI course
+    @Override
+    public double price() {
+        return 200.0;
+    }
+}

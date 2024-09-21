@@ -1,0 +1,141 @@
+2024-09-20T14:18:50.105+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : Starting BootProj01DependencyInjectionApplication using Java 17.0.11 with PID 9338 (/Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection/bin/main started by dox in /Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection)
+2024-09-20T14:18:50.117+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : The following 1 profile is active: "local"
+2024-09-20T14:18:51.316+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8443 (http)
+2024-09-20T14:18:51.336+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-20T14:18:51.337+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-20T14:18:51.430+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-20T14:18:51.430+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2024-09-20T14:18:51.789+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-09-20T14:18:51.852+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-20T14:18:51.885+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-20T14:18:51.920+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-20T14:18:52.083+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8443 (http) with context path '/'
+2024-09-20T14:18:52.138+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : Started BootProj01DependencyInjectionApplication in 2.755 seconds (process running for 3.592)
+2024-09-20T14:19:09.088+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20T14:19:09.090+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-20T14:19:09.091+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-20T14:19:09.091+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-20T14:19:09.092+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-20T14:19:09.096+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1cd5078b
+2024-09-20T14:19:09.097+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@45795718
+2024-09-20T14:19:09.098+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-20T14:19:09.098+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-09-20T14:19:09.122+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:19:09.140+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:19:09.188+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:19:09.282+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:19:09.283+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:19:09.291+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:19:11.950+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:19:11.952+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:19:11.952+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:19:11.956+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:19:11.957+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:19:11.974+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:25:40.941+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:25:40.950+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:25:40.954+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:25:40.974+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:25:40.974+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:25:40.980+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:25:41.819+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:25:41.820+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:25:41.821+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:25:41.822+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:25:41.822+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:25:41.823+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:25:42.067+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:25:42.067+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:25:42.067+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:25:42.068+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:25:42.068+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:25:42.069+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:25:42.285+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:25:42.286+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:25:42.286+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:25:42.287+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:25:42.287+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:25:42.288+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:25:42.486+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:25:42.487+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:25:42.487+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:25:42.488+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:25:42.488+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:25:42.489+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:49:20.079+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : Starting BootProj01DependencyInjectionApplication using Java 17.0.11 with PID 10263 (/Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection/bin/main started by dox in /Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection)
+2024-09-20T14:49:20.080+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : The following 1 profile is active: "local"
+2024-09-20T14:49:21.178+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8443 (http)
+2024-09-20T14:49:21.192+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-20T14:49:21.193+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-20T14:49:21.239+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-20T14:49:21.240+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2024-09-20T14:49:21.449+05:30 DEBUG 10263 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-09-20T14:49:21.488+05:30 DEBUG 10263 --- [BootProj01-DependencyInjection] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-20T14:49:21.502+05:30 DEBUG 10263 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-20T14:49:21.520+05:30 DEBUG 10263 --- [BootProj01-DependencyInjection] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-20T14:49:21.558+05:30  WARN 10263 --- [BootProj01-DependencyInjection] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-20T14:49:21.570+05:30  INFO 10263 --- [BootProj01-DependencyInjection] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-20T14:49:21.580+05:30 ERROR 10263 --- [BootProj01-DependencyInjection] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8443 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8443 or configure this application to listen on another port.
+
+2024-09-20T14:50:04.898+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:50:04.905+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:50:04.908+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:50:04.918+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:50:04.920+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!"]
+2024-09-20T14:50:04.929+05:30 DEBUG 9338 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:50:37.936+05:30  INFO 9338 --- [BootProj01-DependencyInjection] [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-20T14:50:49.017+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : Starting BootProj01DependencyInjectionApplication using Java 17.0.11 with PID 10314 (/Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection/bin/main started by dox in /Users/dox/Desktop/Spring-Boot/BootProj01-DependencyInjection)
+2024-09-20T14:50:49.018+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : The following 1 profile is active: "local"
+2024-09-20T14:50:49.451+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8443 (http)
+2024-09-20T14:50:49.459+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-20T14:50:49.460+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-20T14:50:49.485+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-20T14:50:49.485+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 441 ms
+2024-09-20T14:50:49.572+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2024-09-20T14:50:49.598+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-20T14:50:49.609+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-20T14:50:49.624+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-20T14:50:49.661+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8443 (http) with context path '/'
+2024-09-20T14:50:49.668+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [main] BootProj01DependencyInjectionApplication : Started BootProj01DependencyInjectionApplication in 0.858 seconds (process running for 1.173)
+2024-09-20T14:50:53.956+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-20T14:50:53.956+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-20T14:50:53.957+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-20T14:50:53.957+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-20T14:50:53.957+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-20T14:50:53.958+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7e15a4eb
+2024-09-20T14:50:53.958+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@468fc171
+2024-09-20T14:50:53.959+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-20T14:50:53.959+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-20T14:50:53.966+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:50:53.973+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:50:53.980+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:50:53.987+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:50:53.988+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!}}"]
+2024-09-20T14:50:53.991+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:59:19.046+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:59:19.049+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:59:19.050+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:59:19.063+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:59:19.063+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!}}"]
+2024-09-20T14:59:19.064+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T14:59:48.939+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-09-20T14:59:48.942+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sahu.BootProj01DependencyInjectionApplication#home()
+2024-09-20T14:59:48.943+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] BootProj01DependencyInjectionApplication : Home endpoint accessed
+2024-09-20T14:59:48.946+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [text/plain, */*, application/json, application/*+json]
+2024-09-20T14:59:48.947+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Hello World!}}"]
+2024-09-20T14:59:48.949+05:30 DEBUG 10314 --- [BootProj01-DependencyInjection] [http-nio-127.0.0.1-8443-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-20T21:35:14.029+05:30  INFO 10314 --- [BootProj01-DependencyInjection] [RMI TCP Connection(384)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.

@@ -1,0 +1,15 @@
+package com.sahu;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@RestController
+@SpringBootApplication
+@Slf4j 
+public class BootProj01DependencyInjectionApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BootProj01DependencyInjectionApplication.class, args);
+	}
+
+}

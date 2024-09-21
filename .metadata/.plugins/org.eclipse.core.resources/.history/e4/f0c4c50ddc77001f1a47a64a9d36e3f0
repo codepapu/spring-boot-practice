@@ -1,0 +1,40 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.4'
+	id 'io.spring.dependency-management' version '1.1.6'
+}
+
+group = 'com.sahu'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+// Core Spring Boot starter dependency that provides support for auto-configuration, logging, etc.
+	implementation 'org.springframework.boot:spring-boot-starter'
+	
+	// Spring Boot starter for testing, which includes JUnit, Hamcrest, Mockito, and other test utilities
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	// JUnit platform launcher dependency for executing tests
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
+	// Spring Boot starter for building web applications, including REST APIs, using Spring MVC
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	
+	// Lombok dependency to reduce boilerplate code for getters, setters, constructors, etc.
+	compileOnly 'org.projectlombok:lombok:1.18.34'
+	
+	// Annotation processor for Lombok to generate the required bytecode at compile time
+	annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
