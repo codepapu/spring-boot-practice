@@ -18,4 +18,4 @@ This repository serves as a practice ground for developing Spring Boot applicati
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/spring-boot-practice.git
+   git clone https://github.com/codepapu/spring-boot-practice.git
